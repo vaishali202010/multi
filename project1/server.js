@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 const PORT = 3000;
 
-app.get('/', (req, res) => {
+app.get('/project1', (req, res) => {
   res.send('Hello from Project 1!');
 });
 
